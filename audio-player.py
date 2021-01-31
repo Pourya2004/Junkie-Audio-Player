@@ -422,7 +422,6 @@ class MusicPlayer:
 
         # Some variables with a value of errors that
         # will be used for error message boxes.
-
         self.file_not_found = 'Junkie player could not find the file. Please check and try again.'
         self.no_song_selected = 'Junkie player could not recognize any selected song. Please check and try again.'
         self.track_type_invalid = 'Junkie player does not support this track type. Please check and try again.'
