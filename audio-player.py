@@ -1584,7 +1584,7 @@ class MusicPlayer:
         about_photoimage = PhotoImage(file='png/about-540.png')
         label = Label(new_window, image=about_photoimage, cursor='hand2')
         label.bind(
-            '<Button-1>', lambda e: callback('http://www.google.com')
+            '<Button-1>', lambda e: callback('https://github.com/Pourya2004/Junkie-Audio-Player')
         )
         label.image = about_photoimage
         label.pack()
